@@ -1,0 +1,140 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  background: #E0EAFC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#app {
+  flex: 1 0 auto;
+}
+
+.footer-bottom {
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #63676b;
+  margin-top: 60px !important;
+}
+
+.navbar-toggler {
+  padding-top: .25em !important;
+  padding-bottom: .25em !important;
+  height: 40px;
+  width: 48px;
+}
+
+.navbar-inverse .navbar-toggler {
+    border-color: rgba(0,0,0,0) !important;
+}
+
+.navbar-toggleable-md .navbar-nav .nav-link {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+.MockupForm {
+  padding-top: 60px;
+}
+
+#mockupSchoolLogo {
+  height: 125px;
+  width: 150px;
+}
+
+#home {
+  padding-top: 10em;
+}
+
+#navbarMain{
+  background-color: #7daaf2;
+}
+
+#navbarContent{
+  float: right;
+  width: auto;
+  margin: auto;
+}
+
+#logo {
+  height: 50px;
+  width: 75px;
+  margin: .15em;
+}
+
+#smalllogo {
+  height: 40px;
+  width: 48px;
+  margin-top: .3em;
+}
+
+
+#schoolLogo {
+  height: 250px;
+  width: 250px;
+  margin: auto;
+}
+
+#sportlist {
+  margin:auto;
+}
+
+
+.form-header {
+  margin-top: auto;
+}
+
+.form-container {
+  min-height: 600px !important;
+  width: 50em !important;
+}
+
+.progressBar {
+  margin: auto !important;
+  padding-bottom: : 2em !important;
+}
+
+.sportButton {
+  width: 17em;
+}
+
+.rivalButton {
+  width: 22em;
+}
+
+.nav-link {
+  margin-right: 2em;
+  margin-left: 2em;
+}
+
+.dv-star-rating i {
+  display: block !important;
+}
+
+.dv-star-rating-star  {
+  margin: 1.14rem 0 .912rem 0;
+  display: none;
+}
+
+
+
+/*#jumboHome {
+  background: url("./../images/football-field.jpg") no-repeat center center;
+  -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}*/
